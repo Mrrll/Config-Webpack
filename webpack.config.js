@@ -26,7 +26,7 @@ module.exports = {
             },
             {
                 test: /\.css$/i,
-                use: [MiniCssExtractPlugin.loader, 'css-loader','sass-loader'], // !: Carga el uso del loader del plugin para css ... 
+                use: [MiniCssExtractPlugin.loader, 'css-loader','sass-loader'], // !: Carga el uso del loader del plugin para css y sass ... 
                 exclude: [
                     path.resolve(__dirname, "/node_modules/")
                 ]
