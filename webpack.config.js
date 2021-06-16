@@ -36,7 +36,22 @@ module.exports = {
                 exclude: [
                     path.resolve(__dirname, "/node_modules/")
                 ]
-            }            
+            },
+            {
+                test: /\.(jpe?g|png|gif|svg|webp)$/i,
+                use: [
+                    {
+                      loader: 'file-loader',
+                      options: {
+                        outputPath: 'assets/images', // !: Carpeta de salida
+                        name : '[name].[ext]'
+                      }
+                    }
+                ],
+                exclude: [
+                    path.resolve(__dirname, "/node_modules/")
+                ]
+            }           
         ]
     }
 };
