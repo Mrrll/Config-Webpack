@@ -22,6 +22,12 @@ module.exports = {
         rules: [
             {
                 test: /\.(js|jsx)$/, // ?: Formato de extension a buscar ...
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                      presets: ['@babel/preset-env']
+                    }
+                },
                 exclude: /node_modules/, // ?: Exclusion de Carpeta ...
             },
             {

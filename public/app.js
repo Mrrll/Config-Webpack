@@ -10,23 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/style.css":
-/*!***********************!*\
-  !*** ./src/style.css ***!
-  \***********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://Webpack02/./src/style.css?");
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _saludo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./saludo */ \"./src/saludo.js\");\n\r\n\r\n(0,_saludo__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n//# sourceURL=webpack://Webpack02/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _saludo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./saludo */ \"./src/saludo.js\");\n\n(0,_saludo__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n//# sourceURL=webpack://Webpack02/./src/index.js?");
 
 /***/ }),
 
@@ -36,7 +26,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sal
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ saludo)\n/* harmony export */ });\nfunction saludo() {\r\n    document.getElementById('app').innerText = \"Hola Mundo\";\r\n}\n\n//# sourceURL=webpack://Webpack02/./src/saludo.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ saludo)\n/* harmony export */ });\nfunction saludo() {\n  document.getElementById('app').innerText = \"Hola Mundo\";\n}\n\n//# sourceURL=webpack://Webpack02/./src/saludo.js?");
+
+/***/ }),
+
+/***/ "./src/style.css":
+/*!***********************!*\
+  !*** ./src/style.css ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://Webpack02/./src/style.css?");
 
 /***/ })
 
