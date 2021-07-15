@@ -3,7 +3,7 @@
 Configuración básica de Webpack
 Preparación básica con babel , css , sass y imagenes.
 
-# Configración básica
+# Configuración básica
 
 Esta configración básica, permite la extracción y compilación de archivos (js|jsx / css / jpe?g|png|gif|svg|webp).
 
